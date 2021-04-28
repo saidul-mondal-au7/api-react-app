@@ -1,0 +1,15 @@
+{
+  "name": "byldd-frontend-challenge",
+  "version": "1.0.0",
+  "description": "Welcome to the Byldd frontend coding challenge! Please read the following instructions carefully.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server db.json"
+  },
+  "author": "Byldd Recruiting Team",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
