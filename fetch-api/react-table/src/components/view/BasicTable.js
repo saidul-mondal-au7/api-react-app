@@ -3,7 +3,6 @@ import { useTable } from 'react-table'
 import { COLUMNS } from './columns'
 import './table.css'
 
-import Navbar from './Navbar'
 
 const BasicTable = (props) => {
     // const MOCK_DATA = props.data
@@ -24,7 +23,6 @@ const BasicTable = (props) => {
 
     return (
         <>
-        <Navbar  />
        
         <table {...getTableProps()}>
             <thead>
